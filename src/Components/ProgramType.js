@@ -11,6 +11,7 @@ export default function ProgramTypes() {
   const programs = [
     {
       imgurl: DanceImg,
+      progid: 1,
       program: "Dance Dynamics",
       heading: "Move, Express, Unite!",
       description:
@@ -18,6 +19,7 @@ export default function ProgramTypes() {
     },
     {
       imgurl: StemImg,
+      progid: 2,
       program: "STEM Explorations",
       heading: "Innovate and Solve!",
       description:
@@ -25,6 +27,7 @@ export default function ProgramTypes() {
     },
     {
       imgurl: MathImg,
+      progid: 3,
       program: "Reading and Math Mastery",
       heading: "Boost Your Brainpower!",
       description:
@@ -32,6 +35,7 @@ export default function ProgramTypes() {
     },
     {
       imgurl: Lifeskills,
+      progid: 4,
       program: "Life Skills Lab",
       heading: "Prepare for Your Future!",
       description:
@@ -39,6 +43,7 @@ export default function ProgramTypes() {
     },
     {
       imgurl: MusicImg,
+      progid: 5,
       program: "Music Arts Studio",
       heading: "Harmonize and Create!",
       description:
@@ -46,6 +51,7 @@ export default function ProgramTypes() {
     },
     {
       imgurl: PEImg,
+      progid: 6,
       program: "Physical Education Program",
       heading: "Get Active, Stay Fit!",
       description:
@@ -56,7 +62,10 @@ export default function ProgramTypes() {
   return (
     <div className="ProgramTypes place-self-center p-4 px-20 m-auto grid grid-cols-2 gap-8">
       {programs.map((prog) => (
-        <div className="shadow-md col-span-1 rounded-md p-4 hover:border-2 hover:border-blue-600">
+        <div
+          key={prog.progid}
+          className="shadow-md col-span-1 rounded-md p-4 hover:border-2 hover:border-blue-600"
+        >
           <div className="grid grid-cols-5 place-self-center rounded-md">
             <CircleImg imgurl={prog.imgurl}></CircleImg>
             <div className="col-span-4">
