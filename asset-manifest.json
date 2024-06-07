@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/NGO_website/static/css/main.9cfd8468.css",
+    "main.js": "/NGO_website/static/js/main.0dac270b.js",
+    "static/js/453.7b0e33f1.chunk.js": "/NGO_website/static/js/453.7b0e33f1.chunk.js",
+    "static/media/summerProg.jpg": "/NGO_website/static/media/summerProg.1483fddca8a6fa02866c.jpg",
+    "static/media/math.webp": "/NGO_website/static/media/math.2bff240873e262deb6a1.webp",
+    "static/media/music.webp": "/NGO_website/static/media/music.6f57ad15b19bea361bb3.webp",
+    "static/media/vision2.jpg": "/NGO_website/static/media/vision2.3ec7ca582ec6b9f48659.jpg",
+    "static/media/mission2.jpg": "/NGO_website/static/media/mission2.ddc5cc37146ae72735b6.jpg",
+    "static/media/lifeskills.webp": "/NGO_website/static/media/lifeskills.8d5d1642825a7caa2271.webp",
+    "static/media/PE.webp": "/NGO_website/static/media/PE.095604c1777c8678752b.webp",
+    "static/media/STEM.png": "/NGO_website/static/media/STEM.04d24f84b3dd274ffda7.png",
+    "static/media/childrenDancing.webp": "/NGO_website/static/media/childrenDancing.1086899a9524399f7eed.webp",
+    "static/media/Logo.jpg": "/NGO_website/static/media/Logo.e0a86f70d2292734030f.jpg",
+    "index.html": "/NGO_website/index.html",
+    "main.9cfd8468.css.map": "/NGO_website/static/css/main.9cfd8468.css.map",
+    "main.0dac270b.js.map": "/NGO_website/static/js/main.0dac270b.js.map",
+    "453.7b0e33f1.chunk.js.map": "/NGO_website/static/js/453.7b0e33f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cfd8468.css",
+    "static/js/main.0dac270b.js"
+  ]
+}
