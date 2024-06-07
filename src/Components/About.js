@@ -3,6 +3,7 @@ import Members from "./Members";
 import TextCard from "./TextCard";
 import MissionImg from "../Assets/mission2.jpg";
 import VisisonImg from "../Assets/vision2.jpg";
+import DonateBtn from "./DonateBtn";
 
 export default function About() {
   const content = [
@@ -37,6 +38,13 @@ export default function About() {
           heading={content[1].heading}
           description={content[1].description}
         ></TextCard>
+      </div>
+      <h2 className="mt-14 text-slate-700 text-3xl font-serif italic text-center md:w-2/3 m-auto">
+        "Join us in making a difference today—your generous donation can
+        transform lives and build a brighter future for those in need."
+      </h2>
+      <div className="mt-4 -ml-4 m-auto text-center m-auto">
+        <DonateBtn></DonateBtn>
       </div>
       <div className="grid sm:grid-cols-3 gap-12 lg:mx-12 grid-cols-1">
         <h1 className="font-serif font-bold text-3xl text-center col-span-3 border-t-2 border-slate-200 mt-8 pt-8">

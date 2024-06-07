@@ -1,4 +1,5 @@
 import ContactForm from "./ContactForm";
+import DonateBtn from "./DonateBtn";
 
 export default function Contact() {
   const contactDetails = {
@@ -24,6 +25,13 @@ export default function Contact() {
         <h2 className="font-bold text-xl text-slate-700 mt-2">
           Cell : {contactDetails.Cell}
         </h2>
+        <h2 className="mt-14 text-slate-700 text-3xl font-serif italic">
+          "Join us in making a difference today—your generous donation can
+          transform lives and build a brighter future for those in need."
+        </h2>
+        <div className="mt-4 -ml-4 ">
+          <DonateBtn></DonateBtn>
+        </div>
       </div>
       <ContactForm></ContactForm>
     </div>
