@@ -60,7 +60,7 @@ export default function ProgramTypes() {
   ];
 
   return (
-    <div className="ProgramTypes place-self-center p-4 px-20 m-auto grid grid-cols-2 gap-8">
+    <div className="ProgramTypes place-self-center p-4 lg:px-20 m-auto grid lg:grid-cols-2 gap-8">
       {programs.map((prog) => (
         <div
           key={prog.progid}
@@ -68,7 +68,7 @@ export default function ProgramTypes() {
         >
           <div className="grid grid-cols-5 place-self-center rounded-md">
             <CircleImg imgurl={prog.imgurl}></CircleImg>
-            <div className="col-span-4">
+            <div className="pl-4 lg:pl-0 col-span-4">
               <h1 className="text-2xl font-serif font-bold">{prog.program}</h1>
               <h2 className="italic text-gray-500">{prog.heading}</h2>
               <h3>{prog.description}</h3>

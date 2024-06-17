@@ -22,8 +22,8 @@ export default function About() {
   ];
 
   return (
-    <div className="p-12">
-      <div className="grid grid-cols-2 text-justify">
+    <div className="p-4 md:p-12">
+      <div className="md:grid md:grid-cols-2 text-justify">
         <TextCard
           className="col-span-1"
           heading={content[0].heading}
@@ -31,7 +31,7 @@ export default function About() {
         ></TextCard>
         <ImageCard imgurl={content[0].imgurl}></ImageCard>
       </div>
-      <div className="grid grid-cols-2 text-justify">
+      <div className="md:grid md:grid-cols-2 text-justify">
         <ImageCard imgurl={content[1].imgurl}></ImageCard>
         <TextCard
           className="col-span-1"

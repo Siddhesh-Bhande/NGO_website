@@ -20,7 +20,12 @@ function App() {
       {showAbout && <About></About>}
       {showPrograms && <Programs></Programs>}
       <div className="bg-stone-100 shadow-sm">
-        <Footer></Footer>
+        <Footer
+          setShowAbout={setShowAbout}
+          showAbout={showAbout}
+          showPrograms={showPrograms}
+          setShowPrograms={setShowPrograms}
+        ></Footer>
       </div>
     </div>
   );
