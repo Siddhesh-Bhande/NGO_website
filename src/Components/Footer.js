@@ -23,11 +23,13 @@ export default function Footer({
         <h2 className="col-span-2 text-2xl mt-1">About</h2>
         <h2 className="col-span-3 text-2xl mt-1">Programs</h2>
       </div>
+
       <div className="grid grid-cols-10 gap-6 mt-2 grid-rows-3 ">
         <div className="col-span-5 row-span-2">
         <p><b>1826 Pennsylvania Ave</b></p>
         <p><b>Baltimore, MD 21217</b></p>
         <p><b>PO Number 12648</b></p>
+
         </div>
         <div className="grid grid-cols-1 col-span-2 row-span-2">
           <a
