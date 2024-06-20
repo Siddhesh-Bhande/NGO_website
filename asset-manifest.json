@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NGO_website/static/css/main.d9e89bcd.css",
-    "main.js": "/NGO_website/static/js/main.ec85931d.js",
+    "main.js": "/NGO_website/static/js/main.7bd1981b.js",
     "static/js/453.7b0e33f1.chunk.js": "/NGO_website/static/js/453.7b0e33f1.chunk.js",
     "static/media/logo3.png": "/NGO_website/static/media/logo3.b463df854a8379a1b950.png",
     "static/media/math.webp": "/NGO_website/static/media/math.2bff240873e262deb6a1.webp",
@@ -15,11 +15,11 @@
     "static/media/Logo.jpg": "/NGO_website/static/media/Logo.e0a86f70d2292734030f.jpg",
     "index.html": "/NGO_website/index.html",
     "main.d9e89bcd.css.map": "/NGO_website/static/css/main.d9e89bcd.css.map",
-    "main.ec85931d.js.map": "/NGO_website/static/js/main.ec85931d.js.map",
+    "main.7bd1981b.js.map": "/NGO_website/static/js/main.7bd1981b.js.map",
     "453.7b0e33f1.chunk.js.map": "/NGO_website/static/js/453.7b0e33f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9e89bcd.css",
-    "static/js/main.ec85931d.js"
+    "static/js/main.7bd1981b.js"
   ]
 }
